@@ -6,7 +6,7 @@ module cos (
     output reg signed [`BITS-1:0]      value
 );
 
-always @(*) begin // Quantization fp128 2 int65 by cpp simulation
+always @(*) begin // Quantization
     if(on == 1) begin
         case(h)
             2:          value = -2097152;
