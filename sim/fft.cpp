@@ -16,7 +16,7 @@ typedef long long int ll;
 const int input_len = 8;
 const int kernel_len = 3;
 const int len = 128;
-const double PI = acos(-1.0);
+const long double PI = acos(-1.0);
 const int quantized_bits = 21;
 
 struct Complex {
