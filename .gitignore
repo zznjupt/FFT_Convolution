@@ -1,3 +1,6 @@
 *.exe
 *.out
 *.log
+
+RTL/input.v
+RTL/output.v
